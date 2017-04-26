@@ -7,6 +7,17 @@ class AboutController < ApplicationController
   def show
     serializable_resource = ActiveModelSerializers::SerializableResource.new(InitialStatePresenter.new(initial_state_params), serializer: InitialStateSerializer)
     @initial_state_json   = serializable_resource.to_json
+    registration_secret = ENV.fetch('REGISTRATION_SECRET', 'pineapples')
+    if @instance_presenter.open_registrations && registration_secret
+      # if url has the correct secret passphrase set, show the registration form
+      if params[:secret] == registration_secret
+        @show_registration = true
+      else
+        @show_registration = false
+      end
+    else
+      @show_registration = @instance_presenter.open_registrations
+    end
   end
 
   def more; end
