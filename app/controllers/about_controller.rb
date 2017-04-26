@@ -6,7 +6,7 @@ class AboutController < ApplicationController
 
   def show
     registration_secret = ENV.fetch('REGISTRATION_SECRET', 'pineapples')
-    if registration_secret
+    if @instance_presenter.open_registrations && registration_secret
       # if url has the correct secret passphrase set, show the registration form
       if params[:secret] == registration_secret
         @show_registration = true
