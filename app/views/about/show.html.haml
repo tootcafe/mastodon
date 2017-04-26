@@ -25,7 +25,7 @@
   .screenshot-with-signup
     .mascot= image_tag 'fluffy-elephant-friend.png'
 
-    - if @instance_presenter.open_registrations
+    - if @show_registration
       = render 'registration'
     - else
       .closed-registrations-message
