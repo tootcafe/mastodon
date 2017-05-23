@@ -1,3 +1,32 @@
+//
+// begin toot.cafe customizations
+//
+
+$color1: #2a2833; // darkest
+$color2: #f1ebff; // lightest
+$color3: #aea0c9; // lighter
+$color4: #ae91e8; // vibrant
+$color5: #ffffff; // white
+$color6: #ff5283; // error red
+$color7: #34febb; // succ green
+$color8: #000000; // black
+
+$ui-base-color: $color1;
+$ui-secondary-color: $color2;
+$ui-primary-color: $color3;
+$ui-highlight-color: $color4;
+$base-border-color: $color5;
+$simple-background-color: $color5;
+$primary-text-color: $color5;
+$error-value-color: $color6;
+$valid-value-color: $color7;
+$base-shadow-color: $color8;
+$base-overlay-background: $color8;
+
+//
+// end toot.cafe customizations
+//
+
 // Commonly used web colors
 $black: #000000;            // Black
 $white: #ffffff;            // White
