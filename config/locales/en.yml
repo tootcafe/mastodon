@@ -1736,9 +1736,12 @@ en:
   tags:
     does_not_match_previous_name: does not match the previous name
   themes:
+    default: "Toot Café"
     contrast: Mastodon (High contrast)
-    default: Mastodon (Dark)
+    mastodon: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
+    win95: "Windows 95"
+    paris: "Paris mon Amour"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
