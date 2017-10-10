@@ -1,2 +1,4 @@
 "Toot Café": styles/tootcafe.scss            # via https://github.com/tootcafe/mastodon/pull/2
 Mastodon: styles/application.scss
+"Windows 95": styles/win95.scss              # via https://github.com/cybrespace/mastodon
+cybrespace: styles/cybre.scss                # via https://github.com/cybrespace/mastodon
