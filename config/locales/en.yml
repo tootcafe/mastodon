@@ -2192,7 +2192,13 @@ en:
     review_link: Review terms of service
     title: The terms of service of %{domain} are changing
   themes:
-    default: Mastodon
+    default: "Toot Café"
+    contrast: Mastodon (High contrast)
+    mastodon: Mastodon (Dark)
+    mastodon-light: Mastodon (Light)
+    system: Automatic (use system theme)
+    win95: "Windows 95"
+    paris: "Paris mon Amour"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
