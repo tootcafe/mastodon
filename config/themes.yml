@@ -2,3 +2,4 @@
 Mastodon: styles/application.scss
 "Windows 95": styles/win95.scss              # via https://github.com/cybrespace/mastodon
 cybrespace: styles/cybre.scss                # via https://github.com/cybrespace/mastodon
+"Paris mon Amour": styles/paris.scss         # via https://github.com/ashfurrow/mastodon/pull/1
