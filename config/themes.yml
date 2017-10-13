@@ -1,5 +1,5 @@
-"Toot Café": styles/tootcafe.scss            # via https://github.com/tootcafe/mastodon/pull/2
-Mastodon: styles/application.scss
-"Windows 95": styles/win95.scss              # via https://github.com/cybrespace/mastodon
-cybrespace: styles/cybre.scss                # via https://github.com/cybrespace/mastodon
-"Paris mon Amour": styles/paris.scss         # via https://github.com/ashfurrow/mastodon/pull/1
+default: styles/tootcafe.scss         # via https://github.com/tootcafe/mastodon/pull/2
+mastodon: styles/application.scss
+win95: styles/win95.scss              # via https://github.com/cybrespace/mastodon
+cybrespace: styles/cybre.scss         # via https://github.com/cybrespace/mastodon
+paris: styles/paris.scss              # via https://github.com/ashfurrow/mastodon/pull/1
