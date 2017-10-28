@@ -46,6 +46,18 @@ class ManifestSerializer < ActiveModel::Serializer
         src: 'https://toot.cafe/android-chrome-512x512.png',
         sizes: '512x512',
         type: 'image/png',
+      }, {
+        src: 'https://toot.cafe/windows-44x44.png',
+        sizes: '44x44',
+        type: 'image/png',
+      }, {
+        src: 'https://toot.cafe/windows-50x50.png',
+        sizes: '50x50',
+        type: 'image/png',
+      }, {
+        src: 'https://toot.cafe/windows-150x150.png',
+        sizes: '150x150',
+        type: 'image/png',
       }
     ]
   end
