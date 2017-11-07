@@ -592,6 +592,8 @@ en:
     mastodon: "Mastodon"
     win95: "Windows 95"
     paris: "Paris mon Amour"
+    photon_dark: "Photon (dark)"
+    photon_light: "Photon (light)"
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
