@@ -2,3 +2,5 @@ default: styles/tootcafe.scss         # via https://github.com/tootcafe/mastodon
 mastodon: styles/application.scss
 win95: styles/win95.scss              # via https://github.com/cybrespace/mastodon
 paris: styles/paris.scss              # via https://github.com/ashfurrow/mastodon/pull/1
+photon_light: styles/photon_light.scss
+photon_dark: styles/photon_dark.scss
