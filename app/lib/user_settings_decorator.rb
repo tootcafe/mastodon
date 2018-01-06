@@ -27,6 +27,7 @@ class UserSettingsDecorator
     user.settings['system_font_ui']      = system_font_ui_preference if change?('setting_system_font_ui')
     user.settings['noindex']             = noindex_preference if change?('setting_noindex')
     user.settings['theme']               = theme_preference if change?('setting_theme')
+    user.settings['hide_elephant_fren']  = hide_elephant_fren_preference if change?('setting_hide_elephant_fren')
   end
 
   def merged_notification_emails
@@ -75,6 +76,10 @@ class UserSettingsDecorator
 
   def theme_preference
     settings['setting_theme']
+  end
+
+  def hide_elephant_fren_preference
+    boolean_cast_setting 'setting_hide_elephant_fren'
   end
 
   def boolean_cast_setting(key)

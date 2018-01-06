@@ -1778,6 +1778,16 @@
   }
 }
 
+.hide-elephant-fren {
+  .drawer__inner {
+    background: lighten($ui-base-color, 13%);
+    > .mastodon {
+      background: none;
+    }
+  }
+}
+
+
 .pseudo-drawer {
   background: lighten($ui-base-color, 13%);
   font-size: 13px;
