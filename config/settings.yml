@@ -28,6 +28,7 @@ defaults: &defaults
   system_font_ui: false
   noindex: false
   theme: 'default'
+  hide_elephant_fren: false
   notification_emails:
     follow: false
     reblog: false
