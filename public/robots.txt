@@ -3,3 +3,5 @@ Disallow: /media_proxy/
 Disallow: /interact/
 Disallow: /api/v1/instance/domain_blocks
 Disallow: /
+Allow: /@jyasskin/
+Allow: /@jyasskin$
