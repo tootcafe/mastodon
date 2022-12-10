@@ -5,14 +5,10 @@ class ManifestSerializer < ActiveModel::Serializer
   include ActionView::Helpers::TextHelper
 
   ICON_SIZES = %w(
-    36
     48
     72
     96
     144
-    192
-    256
-    384
     512
   ).freeze
 
@@ -22,26 +18,25 @@ class ManifestSerializer < ActiveModel::Serializer
              :share_target, :shortcuts
 
   def name
-    object.title
+    "Toot Café"
   end
 
   def short_name
-    object.title
+    "Toot Café"
   end
 
   def icons
     ICON_SIZES.map do |size|
       {
-        src: full_pack_url("media/icons/android-chrome-#{size}x#{size}.png"),
+        src: "/android-chrome-#{size}x#{size}.png",
         sizes: "#{size}x#{size}",
         type: 'image/png',
-        purpose: 'any maskable',
       }
     end
   end
 
   def theme_color
-    '#191b22'
+    '#282c37'
   end
 
   def background_color
