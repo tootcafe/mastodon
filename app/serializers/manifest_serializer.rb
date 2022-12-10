@@ -19,11 +19,11 @@ class ManifestSerializer < ActiveModel::Serializer
   end
 
   def name
-    object.title
+    "Toot Café"
   end
 
   def short_name
-    object.title
+    "Toot Café"
   end
 
   def icons
@@ -41,7 +41,7 @@ class ManifestSerializer < ActiveModel::Serializer
   end
 
   def theme_color
-    '#191b22'
+    '#282c37'
   end
 
   def background_color
