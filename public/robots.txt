@@ -3,5 +3,8 @@ Disallow: /media_proxy/
 Disallow: /interact/
 Disallow: /api/v1/instance/domain_blocks
 Disallow: /
+# Make individual users' toots indexable:
 Allow: /@jyasskin/
 Allow: /@jyasskin$
+Allow: /@tomayac/
+Allow: /@tomayac$
